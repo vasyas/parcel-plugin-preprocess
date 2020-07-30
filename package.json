@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "devDependencies": {
-    "parcel": "^1.12.4",
+  "dependencies": {
     "preprocess": "^3.2.0"
   },
   "peerDependencies": {
+    "parcel": "^1.12.4",
     "typescript": "^3.9.7"
+  },
+  "author": "Vasyl Stashuk <vasyl@stashuk.com>",
+  "publishConfig": {
+    "access": "public"
   }
 }
