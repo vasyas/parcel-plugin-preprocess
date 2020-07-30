@@ -1,0 +1,4 @@
+normalFunction();
+//@exclude
+superExpensiveDebugFunction()
+//@endexclude
