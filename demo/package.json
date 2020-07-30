@@ -1,0 +1,15 @@
+{
+  "name": "@vasyas/parcel-plugin-preprocess-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build --no-content-hash --no-autoinstall --no-cache --out-dir lib --no-minify --target node ./src/index.js"
+  },
+  "dependencies": {
+    "@vasyas/parcel-plugin-preprocess": "file:.."
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
+}
