@@ -4,12 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "parcel build --no-content-hash --no-autoinstall --no-cache --out-dir lib --no-minify --target node ./src/index.js"
+    "build": "env NODE_ENV=production parcel build --no-content-hash --no-autoinstall --no-cache --out-dir lib --no-minify --target node ./src/index.js"
   },
-  "dependencies": {
-    "@vasyas/parcel-plugin-preprocess": "file:.."
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@vasyas/parcel-plugin-preprocess": "file:..",
     "parcel": "^1.12.4"
   }
 }
