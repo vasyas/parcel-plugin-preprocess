@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/parcel-preprocess-demo.iml" filepath="$PROJECT_DIR$/parcel-preprocess-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parcel-plugin-preprocess.iml" filepath="$PROJECT_DIR$/parcel-plugin-preprocess.iml" />
     </modules>
   </component>
 </project>

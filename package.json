@@ -1,13 +1,16 @@
 {
-  "name": "parcel-preprocess-demo",
+  "name": "@vasyas/parcel-plugin-preprocess",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "parcel build --no-content-hash --no-autoinstall --no-cache --out-dir lib --no-minify --target node ./src/index.js"
+    "demo": "parcel build --no-content-hash --no-autoinstall --no-cache --out-dir demo/lib --no-minify --target node ./demo/src/index.js"
   },
   "devDependencies": {
     "parcel": "^1.12.4",
     "preprocess": "^3.2.0"
+  },
+  "peerDependencies": {
+    "typescript": "^3.9.7"
   }
 }
